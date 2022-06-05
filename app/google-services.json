@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025414550637",
+    "project_id": "servigox1",
+    "storage_bucket": "servigox1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025414550637:android:365715a1cf1ca1c2935b64",
+        "android_client_info": {
+          "package_name": "com.example.servigox1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025414550637-bcje9gh7g2df1d97pccngf2u3o7fltkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARozG7sBxZAMZq7ksJAbbbDnB0hw3cuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025414550637-bcje9gh7g2df1d97pccngf2u3o7fltkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

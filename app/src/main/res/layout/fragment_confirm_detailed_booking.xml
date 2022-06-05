@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmDetailedBooking"
+    android:background="@color/white"
+    android:id="@+id/confirmDetailBooking">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+
+    <RelativeLayout
+    android:id="@+id/top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp">
+
+
+
+    <ImageButton
+        android:id="@+id/btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:alpha="0.8"
+        android:background="#00000000"
+        android:elevation="2dp"
+        android:onClick="gotoHome"
+        android:src="@drawable/back_icon"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="ServiGo"
+        android:textColor="@color/logo_dark_blue"
+        android:textSize="28sp"
+        android:textStyle="italic"  />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/servigologo"
+        />
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/logo_light_blue"
+        android:orientation="vertical"
+        android:layout_below="@id/top_bar">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Booking Details"
+            android:textColor="@color/logo_dark_blue"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            android:background="@color/logo_dark_blue"
+            android:layout_marginHorizontal="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Shelar Yamaha"
+            android:textAllCaps="true"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:id="@+id/booking_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            android:background="@color/logo_dark_blue"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:id="@+id/estimatedCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Your estimated service cost is Rs.2000 (approx)"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/estimatedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Minimum time required for your service to be completed successfully is 100 mins (approx)"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Click on the finish button to confirm your service booking"
+            android:textColor="@color/logo_red"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/finish_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:text="Finish" />
+
+
+
+
+
+</RelativeLayout>
+
+</FrameLayout>
